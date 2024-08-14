@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark align-items-center"aria-label="Eleventh navbar example">
+        <div class="container-fluid">
+          <div class="nav-logo mx-2">
+            <span class="text-white fs-6">
+              <img class="logo" src="image/logo1.png" alt="logo" />.in</span>
+          </div>
+          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarsExample09">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <div class="loction d-flex mx-3 text-white">
+                  <i class="bi bi-geo-alt text-white mt-4"></i>
+                  <ul class="list-group list-group-numbered mt-1 fs-10">
+                    <li>
+                      Delivering to Kochi 682024 <br /><span class="fw-bold"
+                        >Update location</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="search d-flex mt-2">
+                  <select class="dropdown-toggle rounded-start">
+                    <option selected>All</option>
+                    <option value="1">Alexa Skills</option>
+                    <option value="2">Amazon Devices</option>
+                    <option value="3">Amazon Fashion</option>
+                    <option value="4">Amazon Fresh</option>
+                  </select>
+                  <input type="search" placeholder="water bottle" aria-label="Search"/>
+                  <button type="submit" class="rounded-end">
+                    <i class="bi bi-search"></i>
+                  </button>
+                </div>
+              </li>
+              <!-- ============================== -->
+              <li class="nav-item dropdown">
+                <div class="text-end d-flex mx-1 mt-3 align-items-center">
+                  <img src="image/in.png" alt="" />
+                  <a class="nav-link dropdown-toggle text-white"href="#"data-bs-toggle="dropdown" aria-expanded="false">EN</a>
+                  <ul class="dropdown-menu w-100">
+                    <li>
+                      <input type="radio" name="brand" />
+                      <label for="English">English-EN</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="brand" />
+                      <label for="Netflix">हिन्दी-HI</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="brand" />
+                      <label for="Netflix">தமிழ்-TA</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="brand" />
+                      <label for="Netflix">తెలుగు-TE</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="brand" />
+                      <label for="Netflix">മലയാളം-ML</label>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white"href="#" data-bs-toggle="dropdown" aria-expanded="false"> Hello, sign in<br />
+                  <span class="text-white fs-8 fw-bold">Account&Lists</span ></a>
+                <ul class="dropdown-menu">
+                  <div style="width: 400px">
+                    <div class="row" style="text-align: center">
+                      <a><span class="btn btn-warning rounded w-50" >Sign in</span></a>
+                      <div id="nav-flyout-ya-newCust"class="nav_pop_new_cust nav-flyout-content nav-flyout-accessibility"> New customer?
+                        <a rel="nofollow" class="nav-a">Start here.</a>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <div id=" nav-al-wishlist" class="col">
+                        <div class="nav-title fw-bold">Your Lists</div>
+                        <span class="nav-text">Create a Wish List</span>
+                        <span class="nav-text">Wish from Any Website</span>
+                        <span class="nav-text">Baby Wishlist</span>
+                        <span class="nav-text">Discover Your Style</span>
+                        <span class="nav-text">Explore Showroom</span>
+                      </div>
+                      <div id=" nav-al-your-account" class="col">
+                        <div class="nav-title fw-bold">Your Account</div>
+                        <span class="nav-text">Your Account</span>
+                        <span class="nav-text">Your Orders</span>
+                        <span class="nav-text">Your Wish List</span>
+                        <span class="nav-text">Your Recommendations</span>
+                        <span class="nav-text">Your Prime Membership</span>
+                        <span class="nav-text">Your Prime Video</span>
+                        <span class="nav-text">Your Subscribe & Save Items</span>
+                        <span class="nav-text">Memberships & Subscriptions</span >
+                        <span class="nav-text">Your Seller Account</span>
+                        <span class="nav-text" >Manage Your Content and Devices</span>
+                        <span class="nav-text">Your Free Amazon Business Account</span>
+                      </div>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <!-- ======================================= -->
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                  Returns<br>
+                  <span class="text-white fs-8 fw-bold" >&Orders</span >
+                </a>
+              </li>
+              <li class="nav-item cart">
+                <a class="nav-link text-white fs-5" href="#"><img class="logo" src="image/cart.png" alt="logo" />cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ====================header section2=========================================== -->
+      <div class="row d-flex align-items-center text-white"style="background-color: rgb(58, 70, 71); font-size: 14px">
+        <div class="d-flex">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list mt-2" viewBox="0 0 16 16" >
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+          </svg>
+          <span class="mt-2">All</span>
+          <ul class="d-flex mt-2 header_2" style="list-style-type: none">
+            <li class="mx-1">Amazon miniTV</li>
+            <li class="mx-2">Sell</li>
+            <li class="mx-2">Best Sellers</li>
+            <li class="mx-2">Today's Deals</li>
+            <li class="mx-2">Mobiles</li>
+            <li class="mx-2 d-none d-sm-block dropdown-toggle d-sm-none d-md-block" >
+              Prime
+            </li>
+            <li class="mx-2 d-none d-sm-block d-sm-none d-md-block">
+              Electronics
+            </li>
+            <li class="mx-2 d-none d-sm-block d-sm-none d-md-block">
+              Customer Service
+            </li>
+            <li class="mx-2 d-none d-sm-block d-sm-none d-md-block">
+              New Releases
+            </li>
+            <li class="mx-2 d-none d-sm-block d-sm-none d-md-block">
+              Home&Kitchen
+            </li>
+            <li class="mx-2 d-none d-sm-block d-sm-none d-md-block">Fashion</li>
+            <li class="mx-2 d-none d-sm-block d-sm-none d-lg-block">
+              Amazon Pay
+            </li>
+            <li class="mx-2 d-none d-sm-block d-sm-none d-lg-block">
+              Computers
+            </li>
+            <li class="mx-2 d-none d-sm-block d-sm-none d-lg-block">
+              Gift Ideas
+            </li>
+            <li class="mx-2 d-none d-sm-block d-sm-none d-lg-block">Books</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row shadow-sm">
+        <p>
+          1-48 of over 60,000 results for
+          <span class="text-danger fw-bold">"water bottle"</span>
+        </p>
+      </div>
+    </header>
+    <!-- ========================side bar contents============================ -->
+    <div class="main-container">
+      <section class="sidebar ms-3">
+        <ul style="list-style-type: none; display: inline">
+          <li class="fw-bold">Category</li>
+          <li>Water Bottles</li>
+          <li>insulated Drinks Containers</li>
+          <ul style="list-style-type: none">
+            <li>insulated Bottles</li>
+            <li>Drinks Container insulators</li>
+          </ul>
+        </ul>
+        <ul style="list-style-type: none; display: inline">
+          <li class="fw-bold">Customer Review</li>
+          <li>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star unchecked"></span>&up
+          </li>
+          <li>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star unchecked"></span>
+            <span class="fa fa-star unchecked"></span>&up
+          </li>
+          <li>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star unchecked"></span>
+            <span class="fa fa-star unchecked"></span>
+            <span class="fa fa-star unchecked"></span>&up
+          </li>
+          <li>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star unchecked"></span>
+            <span class="fa fa-star unchecked"></span>
+            <span class="fa fa-star unchecked"></span>
+            <span class="fa fa-star unchecked"></span>&up
+          </li>
+        </ul>
+
+        <span class="fw-bold">Brand</span>
+        <form>
+          <input type="checkbox" id="1" name="1" />
+          <label for="1">MILTON</label><br />
+          <input type="checkbox" id="2" name="2" />
+          <label for="2">CELLO</label><br />
+          <input type="checkbox" id="3" name="3" />
+          <label for="3">Boldfit</label><br />
+          <input type="checkbox" id="4" name="4" />
+          <label for="4">Borosil</label><br />
+          <input type="checkbox" id="5" name="5" />
+          <label for="5">Amazon Brand</label><br />
+          <input type="checkbox" id="6" name="6" />
+          <label for="6">Pigeon</label><br />
+          <input type="checkbox" id="7" name="7" />
+          <label for="7">Speedex</label><br />
+        </form>
+        <span class="fw-bold">Price</span>
+        <ul style="list-style-type: none; display: inline">
+          <li>Under₹500</li>
+          <li>₹500-₹1,000</li>
+          <li>₹1,000-₹2,000</li>
+          <li>₹2,000-₹3,000</li>
+          <li>Over₹3,000</li>
+        </ul>
+        <button type="button" class="btn btn-light border border-dark">
+          ₹Min
+        </button>
+        <button type="button" class="btn btn-light border border-dark">
+          ₹Max
+        </button>
+      </section>
+      <!-- =================rightside_contents=============================== -->
+      <section class="content d-flex flex-column">
+        <div class="row d-flex pt-4 row-cols-1 row-cols-sm-2">
+          <div class="col-3 d-inline">
+            <h1 class="d-inline">
+              <span
+                class="fw-bold fs-auto"
+                style="font-family: Georgia, 'Times New Roman', Times, serif"
+                >BOLD</span
+              >FIT
+            </h1>
+          </div>
+          <div class="col d-inline">
+            <div class="row d-inline">
+              <h5 class="d-inline">Motivational Water Bottle for Sports Gym</h5>
+            </div>
+            <div class="row text-info">
+              <p>Shop Boldfit ></p>
+            </div>
+          </div>
+        </div>
+        <!-- ==========================section1=============================================== -->
+        <div class="row m-1">
+          <div class="col ads">
+            <img src="image/ad.jpeg" class="mt-4" alt="" />
+          </div>
+          <div class="col product_container">
+            <img src="image/bottle.jpg" class="rounded mx-auto d-block" alt="..." />
+            <p class="fs-15">
+              Boldfit 2 Liter Water Bottle For Gym Gallon Water Bottle 2+
+              Litre...
+            </p>
+            <div class="d-flex text-info align-items-center d-inline">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star unchecked"></span>
+              <span>28,10</span>
+            </div>
+            <div class="row prime d-flex align-content-start">
+              <img src="image/prime.png" alt="" />
+            </div>
+          </div>
+          <div class="col product_container">
+            <img  src="image/bottle_1.webp"  class="rounded mx-auto d-block"  alt="..."/>
+            <p class="fs-15">
+              Boldfit 2 Liter Water Bottle For Gym Gallon Water Bottle 2+
+              Litre...
+            </p>
+            <div class="d-flex text-info align-items-center d-inline">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star unchecked"></span>
+              <span>28,10</span>
+            </div>
+            <div class="row prime d-flex align-content-start">
+              <img src="image/prime.png" alt="" />
+            </div>
+          </div>
+          <div class="col product_container">
+            <img src="image/bottle_0.jpg" class="rounded mx-auto d-block" alt="..." />
+            <p class="fs-15">
+              Boldfit 2 Liter Water Bottle For Gym Gallon Water Bottle 2+
+              Litre...
+            </p>
+            <div class="d-flex text-info align-items-center d-inline">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star unchecked"></span>
+              <span>28,10</span>
+            </div>
+            <div class="row prime d-flex align-content-start">
+              <img src="image/prime.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <span class="fw-bold">Results</span>
+          <p>
+            Check each product page for other buying options price and other
+            details may vary based on product size and colour
+          </p>
+        </div>
+        <!-- ==============================section2============================================== -->
+        <div class="row mt-1 row-cols-1 row-cols-sm-2 row-cols-md-5">
+          <div class="card col m-1" style="width: 14rem">
+            <img  src="image/bottle_2.webp"  class="card-img-top"  alt="..."/>
+            <div class="card-body">
+              <p class="card-text d-inline fs-15">
+                Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel
+                Water Bottles for School, Office, Home, Gym 1 Litre Water ..
+              </p>
+              <ul style="list-style-type: none; display: inline">
+                <li class="d-flex text-info align-items-center">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star unchecked"></span>28,10
+                </li>
+              </ul>
+              <div class="prime_1">
+                <img src="image/prime.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="card col m-1" style="width: 14rem">
+            <img src="image/bottle_4.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text d-inline fs-15">
+                Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel
+                Water Bottles for School, Office, Home, Gym 1 Litre Water ..
+              </p>
+              <ul style="list-style-type: none; display: inline">
+                <li class="d-flex text-info align-items-center">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star unchecked"></span>28,10
+                </li>
+              </ul>
+              <div class="prime_1">
+                <img src="image/prime.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="card col m-1 " style="width: 14rem">
+            <img src="image/bottle_5.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="d-inline fs-15">
+                Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel
+                Water Bottles for School, Office, Home, Gym 1 Litre Water Bottle
+                for Men ..
+              </p>
+              <ul style="list-style-type: none; display: inline">
+                <li class="d-flex text-info align-items-center">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star unchecked"></span>28,10
+                </li>
+              </ul>
+              <div class="prime_1">
+                <img src="image/prime.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="card col m-1" style="width: 14rem">
+            <img src="image/bottle_6.webp" class="card-img-top" alt="..."/>
+            <div class="card-body d-inline">
+              <p class="d-inline fs-15">
+                Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel
+                Water Bottles for School, Office, Home, Gym 1 Litre Water
+                Bottle..
+              </p>
+              <ul style="list-style-type: none; display: inline">
+                <li class="d-flex text-info align-items-center">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star unchecked"></span>28,10
+                </li>
+              </ul>
+              <div class="prime_1">
+                <img src="image/prime.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="card col m-1" style="width: 14rem">
+            <img src="image/bottle_7.webp" style="height:14rem ;" class="card-img-top" alt="..." />
+            <div class="card-body d-inline ">
+              <p class="d-inline fs-15">
+                Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel
+                Water Bottles for School, Office, Home, Gym 1 Litre Water
+                Bottle..
+              </p>
+              <ul style="list-style-type: none; display: inline">
+                <li class="d-flex text-info align-items-center">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star unchecked"></span>28,10
+                </li>
+              </ul>
+              <div class="prime_1">
+                <img src="image/prime.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
