@@ -80,6 +80,11 @@ input[type="search"]{
     height: 15px;
 
 }
+.add_cart{
+    background-color:#f0dc22;
+    border: none;
+    border-radius: 10px;
+}
 @media screen and (max-width:1400px){
     
     .section2{
