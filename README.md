@@ -29,12 +29,12 @@
   <h2>📦 Installation</h2>
   <ol>
     <li><strong>Clone the repository:</strong></li>
-    <pre><code>git clone https://github.com/your-username/amazon-clone.git</code></pre>
+    <pre><code>git clone https://github.com/shaheem728/amazon_page.git</code></pre>
     <li><strong>Open <code>index.html</code></strong> in your browser to view the webpage.</li>
   </ol>
 
   <h2>📝 Contributing</h2>
-  <p>Contributions, issues, and feature requests are welcome! Feel free to check out the <a href="https://github.com/your-username/amazon-clone/issues">issues page</a> to help improve this project.</p>
+  <p>Contributions, issues, and feature requests are welcome! Feel free to check out the <a href="https://github.com/shaheem728/amazon_page.git/issues">issues page</a> to help improve this project.</p>
 
   <h2>🌟 Acknowledgments</h2>
   <ul>
