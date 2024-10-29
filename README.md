@@ -1,6 +1,5 @@
 # Static Webpage Project
 <p>This project is a static replica of the Amazon home page, created using only HTML and CSS to demonstrate frontend skills and layout capabilities. This project does not include backend functionality or JavaScript interactivity, making it a static webpage intended for educational and portfolio purposes.</p>
-https://shaheem728.github.io/amazon_page/
 
  <h2>🔗 Project Overview</h2>
   <p>This Amazon Clone webpage includes:</p>
@@ -10,8 +9,8 @@ https://shaheem728.github.io/amazon_page/
     <li>Footer section with links for additional information.</li>
   </ul>
 
-  <h2>📸 Screenshots</h2>
-  <p>(Add a screenshot to visualize the project)</p>
+  <h2>📸 Deployment</h2>
+  <p>Live Demo can be viewed at</p>
 
   <h2>🚀 Features</h2>
   <ul>
