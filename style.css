@@ -1,26 +1,30 @@
 
-.header-container{
-    height: 70px;
-    width: auto;
-}
 .search button{
     background-color: rgb(246, 193, 93);
     border: none;
-    width: 50px;
-    height: 50px;
+    width: 4vw;
+    height: 5vh;
+}
+.search button:hover{
+    background-color: rgb(244, 173, 42);
+   
 }
 .search select{
-    width: 50px;
-    height: 50px;
+    width: 5vw;
+    height: 5vh;
     background-color: rgb(168, 166, 166);
     border: none;
 }
+.search select:focus-visible{
+    width:6vw;
+}
+
 .search option{
     background-color: #fff;
 }
 input[type="search"]{
-    width: 550px;
-    height: 50px;
+    width: 20vw;
+    height: 5vh;
     border: none;
 }
 .main-container{
@@ -34,6 +38,10 @@ input[type="search"]{
 .content{
     flex:4;
 }
+.nav-logo{
+    height: 50px;
+    width: 120px;
+}
 .nav-logo .logo{
     height: 30px;
     display: inline;
@@ -43,6 +51,9 @@ input[type="search"]{
 } 
 .cart img{
     height: 50px;
+}
+.section2{
+    background-color:rgb(58, 70, 71);
 }
 /* ================================================ */
 
@@ -82,11 +93,6 @@ input[type="search"]{
 }
 @media screen and (max-width:1400px){
     
-    .section2{
-        background-color: blue;
-        height: 1000px;
-    }
- 
     input[type="search"]{
         width: auto;
     }
@@ -97,18 +103,14 @@ input[type="search"]{
         height:15px;
         width:90px;
     }
-    .header-container{
-        width:auto;
-   }
+    
    .header_2{
     font-size: smaller;
    }
 }
 
 @media screen and (max-width:1000px) {
-    .header-container{
-        height: 100px;
-    }
+    
     body{
         font-size: small;
     }
