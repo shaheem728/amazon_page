@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # Static Webpage Project
 <p>This project is a static replica of the Amazon home page, created using only HTML and CSS to demonstrate frontend skills and layout capabilities. This project does not include backend functionality or JavaScript interactivity, making it a static webpage intended for educational and portfolio purposes.</p>
 
