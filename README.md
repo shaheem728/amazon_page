@@ -17,13 +17,14 @@
   <ul>
     <li><strong>Responsive Design</strong>: Adjusts to different screen sizes.</li>
     <li><strong>Amazon-inspired Layout</strong>: Simulates the Amazon page structure.</li>
-    <li><strong>CSS Styling</strong>: Simple, clean, and minimalist approach with CSS.</li>
+    <li><strong>CSS Styling</strong>: Simple, clean, and minimalist approach with CSS & BOOTSTRAP.</li>
   </ul>
 
   <h2>🛠️ Built With</h2>
   <ul>
     <li><strong>HTML5</strong> - For structuring the page content.</li>
     <li><strong>CSS3</strong> - For styling and responsive design.</li>
+   <li><strong>BOOTSTRAP</strong> - For styling and responsive design.</li>
   </ul>
 
 
