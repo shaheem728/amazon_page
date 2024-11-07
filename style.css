@@ -113,6 +113,10 @@ input[type="search"]{
    .header_2{
     font-size: smaller;
    }
+   li{
+    font-size: small;
+    
+   }
 }
 
 @media screen and (max-width:1000px) {
