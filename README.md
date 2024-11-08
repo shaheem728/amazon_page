@@ -37,4 +37,4 @@
     <li><strong>Amazon</strong> for design inspiration.</li>
     <li>Icons and images are placeholders and are used for demonstration purposes only.</li>
   </ul>
->>>>>>> 5cb162e5aa470e3eba35f79c124325ce4ac7a467
+
