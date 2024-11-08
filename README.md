@@ -1,4 +1,7 @@
 
+ ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563d7c.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+
 # Static Webpage Project
 <p>This project is a static replica of the Amazon home page, created using only HTML and CSS to demonstrate frontend skills and layout capabilities. This project does not include backend functionality or JavaScript interactivity, making it a static webpage intended for educational and portfolio purposes.</p>
 
@@ -19,15 +22,6 @@
     <li><strong>Amazon-inspired Layout</strong>: Simulates the Amazon page structure.</li>
     <li><strong>CSS Styling</strong>: Simple, clean, and minimalist approach with CSS & BOOTSTRAP.</li>
   </ul>
-
-  <h2>🛠️ Built With</h2>
-  <ul>
-    <li><strong>HTML5</strong> - For structuring the page content.</li>
-    <li><strong>CSS3</strong> - For styling and responsive design.</li>
-   <li><strong>BOOTSTRAP</strong> - For styling and responsive design.</li>
-  </ul>
-
-
   <h2>📦 Installation</h2>
   <ol>
     <li><strong>Clone the repository:</strong></li>
